@@ -1,0 +1,48 @@
+body {
+    background-image: url('./bgimage.jpg');
+    
+    font-family: 'Arvo',serif;
+}
+
+
+table {
+    width: 95%;
+}
+
+.restroname{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    font-family: 'Arvo',serif;
+    color: #585858;
+}
+
+#logo {
+    text-align: center;
+  }
+  
+  .logo-img {
+    max-width: 250px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+.linkrow {
+    display: flex;
+    justify-content: space-around; /* Distribute space evenly between the links */
+    font-size: 20px;
+}
+
+.link {
+    flex: 1; /* Make each link take up an equal amount of space */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    list-style: none; /* Remove default list styling */
+    margin: 0px;
+    
+    height: 15vh;
+}
+
+.link li {
+    list-style: none; /* Ensure list-style is removed from li elements */
+}
